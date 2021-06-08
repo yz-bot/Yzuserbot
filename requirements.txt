@@ -68,3 +68,4 @@ wget
 wordcloud
 zipfile38
 opencv-python-headless
+
