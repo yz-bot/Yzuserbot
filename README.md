@@ -35,7 +35,7 @@ Ambil Dari Bot Telegram [KlikDisini](https://t.me/stringxbot)
 ### Atau Jalankan di terminal Anda
 
 ```
-wget https://raw.githubusercontent.com/yz-bot/Yzuserbot/yz/Getstring.sh && bash Getstring.sh
+wget https://raw.githubusercontent.com/yz-bot/Yzuserbot/Yzuserbot/Getstring.sh && bash Getstring.sh
 ```
 <br>
 
