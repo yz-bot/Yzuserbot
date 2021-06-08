@@ -4,7 +4,7 @@ FROM ximfine/xproject:buster
 #
 # Clone repo and prepare working directory
 #
-RUN git clone -r yz https://github.com/yz-bot/Yzuserbot /root/userbot
+RUN git clone -o yz https://github.com/yz-bot/Yzuserbot /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
