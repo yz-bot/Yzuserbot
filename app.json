@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/poocong/Pocong-Userbot",
+  "repository": "https://github.com/yz-bot/Uzuserbot",
   "website": "https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02",
-  "success_url": "https://t.me/LifeeOrDeath",
+  "success_url": "https://t.me/Abcdmukakntl",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -134,7 +134,7 @@
       "required": false
     },
     "UPSTREAM_REPO_URL": {
-    "description": "set this to your Pocong Userbot fork on GitHub",
+    "description": "set this to your Yz userbot fork on GitHub",
     "required": false
     },
     "USR_TOKEN_UPTOBOX": {
