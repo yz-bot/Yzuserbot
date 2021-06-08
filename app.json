@@ -193,7 +193,7 @@
       "required": false
     },
     "UPSTREAM_REPO_URL": {
-    "description": "set this to your Yzuserbot fork on GitHub",
+    "description": "set this to your Yz userbot fork on GitHub",
     "required": false
     },
     "USR_TOKEN_UPTOBOX": {
