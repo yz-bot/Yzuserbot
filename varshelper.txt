@@ -30,7 +30,7 @@ Enable this permissions:https://telegra.ph/file/0262c512e2b82fcd0260a.jpg
 
 # Custom (forked) repo URL for updater. this vars are important
 UPSTREAM_REPO_URL = https://github.com/yz-bot/Yzuserbot.git
-REPO_URL = https://github.com/yz-bot/YzUserbot.git
+REPO_URL = https://github.com/yz-bot/Yzuserbot.git
 REPO_LINK = https://github.com/yz-bot/Yzuserbot.git
 
 # Console verbose logging
