@@ -1,6 +1,6 @@
 {
-  "name": "YZNWAUSERBOT",
-  "description": "[YZNWA USERBOT] A modular Telegram userbot running on Python 3.8+ with an sqlalchemy database.",
+  "name": "YZ USERBOT",
+  "description": "[YZ USERBOT] A modular Telegram userbot running on Python 3.8+ with an sqlalchemy database.",
   "logo": "https://telegra.ph/file/f36fe8fc696203737e820.jpg",
   "keywords": [
     "telegram",
@@ -48,6 +48,10 @@
       "value": "7",
       "required": false
     },
+    "OPEN_WEATHER_MAP_APPID": {
+      "description": "Dapatkan APPID (API key) dari https://api.openweathermap.org/data/2.5/weather",
+      "required": false
+    },
     "BOTLOG": {
       "description": "Jika Anda ingin mematikan logging, taruh ini ke false",
       "value": "True"
@@ -64,6 +68,19 @@
       "description": "PM Auto-Ban Fitur Switch. Juga dikenal sebagai 'bleep blop, ini adalah bot...' module.",
       "value": "False"
     },
+    "YOUTUBE_API_KEY": {
+      "description": "YouTube Data API Key untuk perintah .yt dapatkan dari https://console.cloud.google.com",
+      "required": false
+    },
+    "OCR_SPACE_API_KEY": {
+      "description": "OCR API Key untuk perintah .ocr dapatkan dari https://ocr.space/ocrapi",
+      "required": false
+      
+    },
+    "REM_BG_API_KEY": {
+      "description": "API Key untuk perintah .rbg dapatkan dari https://www.remove.bg/api",
+      "required": false
+    },
     "ANTI_SPAMBOT": {
       "description": "Menendang robot spam dari grup setelah mereka bergabung. [Membutuhkan kekuatan admin dalam grup untuk menendang.]",
       "value": "False"
@@ -76,9 +93,29 @@
       "description": "Download location for many modules (GDrive, .download etc..)",
       "value": "./downloads/"
     },
+    "QUOTES_API_TOKEN": {
+      "description": "Enhance ur text to sticker. Get your own API token from http://antiddos.systems.",
+      "required": false
+    },
     "CLEAN_WELCOME": {
       "description": "When a new person joins, the old welcome message is deleted.",
       "value": "True"
+    },
+    "LASTFM_API": {
+      "description": "API Key for Last.FM module. [Get one from - https://www.last.fm/api/account/create]",
+      "required": false
+    },
+    "LASTFM_SECRET": {
+      "description": "SECRET Key for Last.FM module. [Get one from - https://www.last.fm/api/account/create]",
+      "required": false
+    },
+    "LASTFM_USERNAME": {
+      "description": "Last.FM Username",
+      "required": false
+    },
+    "LASTFM_PASSWORD": {
+      "description": "Last.FM Password",
+      "required": false
     },
     "BIO_PREFIX": {
       "description": "Prefix for Last.FM Module Bio.",
@@ -104,6 +141,10 @@
       "description": "Client Access Token from https://genius.com/api-clients.",
       "required": false
     },
+    "WEATHER_DEFCITY": {
+      "description": "Set the default city for the userbot's weather module.",
+      "required": false
+    },
     "GIT_REPO_NAME": {
       "description": "Set the repo for the gitupload module.",
       "required": false
@@ -111,6 +152,10 @@
     "GITHUB_ACCESS_TOKEN": {
       "description": "Set this in order to make the gitupload work. you can look https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line to assist you.",
       "required": false
+    },
+    "GENIUS_API_TOKEN": {
+      "description": "Get this value from https://genius.com/developers.",
+      "required": false 
     },
     "G_DRIVE_FOLDER_ID": {
       "description": "Create a folder and put that folder's id here.check folder link for id.",
@@ -121,6 +166,11 @@
       "value": "ID",
       "required": false
     },
+    "DEEZER_ARL_TOKEN": {
+      "description": "Input your DEEZER ARL TOKEN",
+      "value": "",
+      "required": false
+    },
     "BOT_TOKEN": {
       "description": "Set this to enable inline bot helper. get the token from @BotFather",
       "required": false
@@ -129,12 +179,21 @@
       "description": "Username of the bot you created with @BotFather",
       "required": false
     },
+    "WOLFRAM_ID": {
+      "description": "Get an API KEY from products.wolframalpha.com/api/",
+      "required": false
+    },
+    "S_PACK_NAME": {
+      "description": "ubah nama paket stiker Anda",
+      "value": " ",
+      "required": false
+    },
     "ALIVE_LOGO": {
       "description": "Media dalam pesan .alive ",
       "required": false
     },
     "UPSTREAM_REPO_URL": {
-    "description": "set this to your Yz userbot fork on GitHub",
+    "description": "set this to your Pocong Userbot fork on GitHub",
     "required": false
     },
     "USR_TOKEN_UPTOBOX": {
