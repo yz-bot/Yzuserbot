@@ -1,0 +1,153 @@
+{
+  "name": "YZNWAUSERBOT",
+  "description": "[YZNWA USERBOT] A modular Telegram userbot running on Python 3.8+ with an sqlalchemy database.",
+  "logo": "https://telegra.ph/file/f36fe8fc696203737e820.jpg",
+  "keywords": [
+    "telegram",
+    "userbot",
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/poocong/Pocong-Userbot",
+  "website": "https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02",
+  "success_url": "https://t.me/LifeeOrDeath",
+  "stack": "container",
+  "env": {
+    "API_KEY": {
+      "description": "Dapatkan nilai ini dari my.telegram.org.",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Dapatkan nilai ini dari my.telegram.org.",
+      "required": true
+    },
+    "STRING_SESSION": {
+      "description": "Dapatkan nilai ini dengan [python3 string_session.py] di Termux atau sistem lokal.",
+      "required": true
+    },
+    "HEROKU_MEMEZ": {
+      "description": "Ini harus True jika userbot berjalan pada Heroku Dyno.",
+      "value": "True",
+      "required": true
+    },
+    "HEROKU_API_KEY": {
+      "description": "Dapatkan Heroku API_KEY Anda dari 'https://dashboard.heroku.com/account'",
+      "value": ""
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Tambahkan nama aplikasi Heroku di sini. Ini membantu dengan pembaruan userbot.",
+      "required": true
+    },
+    "COUNTRY": {
+      "description": "Tetapkan Negara Anda untuk digunakan diperintah .time dan .date",
+      "required": false
+    },
+    "TZ_NUMBER": {
+      "description": "Ubah nilai ini jika negara Anda memiliki beberapa Zona Waktu.",
+      "value": "7",
+      "required": false
+    },
+    "BOTLOG": {
+      "description": "Jika Anda ingin mematikan logging, taruh ini ke false",
+      "value": "True"
+    },
+    "BOTLOG_CHATID": {
+      "description": "ChatID dari grup Log. Setel ke '0' jika BOTLOG = False dan/atau jika LOGSPAMMER = False.",
+      "value": "-100xnxx"
+    },
+    "CONSOLE_LOGGER_VERBOSE": {
+      "description": "Jika Anda membutuhkan verbositas pada konsol logging",
+      "value": "False"
+    },
+    "PM_AUTO_BAN": {
+      "description": "PM Auto-Ban Fitur Switch. Juga dikenal sebagai 'bleep blop, ini adalah bot...' module.",
+      "value": "False"
+    },
+    "ANTI_SPAMBOT": {
+      "description": "Menendang robot spam dari grup setelah mereka bergabung. [Membutuhkan kekuatan admin dalam grup untuk menendang.]",
+      "value": "False"
+    },
+    "ANTI_SPAMBOT_SHOUT": {
+      "description": "Laporkan robot spam ke @admins dalam grup setelah mereka bergabung, untuk berjaga-jaga jika Anda tidak memiliki kekuatan admin untuk menendang mereka.",
+      "value": "False"
+    },
+    "TMP_DOWNLOAD_DIRECTORY": {
+      "description": "Download location for many modules (GDrive, .download etc..)",
+      "value": "./downloads/"
+    },
+    "CLEAN_WELCOME": {
+      "description": "When a new person joins, the old welcome message is deleted.",
+      "value": "True"
+    },
+    "BIO_PREFIX": {
+      "description": "Prefix for Last.FM Module Bio.",
+      "required": false
+    },
+    "DEFAULT_BIO": {
+      "description": "Default profile bio.",
+      "required": false
+    },
+    "ALIVE_NAME": {
+      "description": "Nama untuk ditampilkan dipesan .alive",
+      "required": true
+    },
+    "G_DRIVE_DATA": {
+      "description": "Your client_secret.json.",
+      "required": false
+    },
+    "UB_BLACK_LIST_CHAT": {
+      "description": "isi id blacklist user",
+      "required": false
+    },
+    "GENIUS_ACCESS_TOKEN": {
+      "description": "Client Access Token from https://genius.com/api-clients.",
+      "required": false
+    },
+    "GIT_REPO_NAME": {
+      "description": "Set the repo for the gitupload module.",
+      "required": false
+    },
+    "GITHUB_ACCESS_TOKEN": {
+      "description": "Set this in order to make the gitupload work. you can look https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line to assist you.",
+      "required": false
+    },
+    "G_DRIVE_FOLDER_ID": {
+      "description": "Create a folder and put that folder's id here.check folder link for id.",
+      "required": false
+    },
+    "WATCH_COUNTRY": {
+      "description": "Country code for justwatch.com",
+      "value": "ID",
+      "required": false
+    },
+    "BOT_TOKEN": {
+      "description": "Set this to enable inline bot helper. get the token from @BotFather",
+      "required": false
+    },
+    "BOT_USERNAME": {
+      "description": "Username of the bot you created with @BotFather",
+      "required": false
+    },
+    "ALIVE_LOGO": {
+      "description": "Media dalam pesan .alive ",
+      "required": false
+    },
+    "UPSTREAM_REPO_URL": {
+    "description": "set this to your Pocong Userbot fork on GitHub",
+    "required": false
+    },
+    "USR_TOKEN_UPTOBOX": {
+      "description": "API for direct link uptobox, https://docs.uptobox.com/#how-to-find-my-api-token",
+      "required": false
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ]
+}
