@@ -6,7 +6,7 @@ bs4
 bitlyshortener
 cowpy
 cffi
-covid
+python3
 cryptg
 cairosvg
 colour
