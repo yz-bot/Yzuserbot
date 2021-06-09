@@ -38,7 +38,7 @@ git clone https://github.com/yz-bot/Yzuserbot.git
 cd Yzuserbot
 
 pip install --upgrade pip setuptools
-pip install -r requirements.txt
+pip install -y requirements.txt
 
 mv sample_config.env config.env
 
@@ -50,7 +50,7 @@ createuser botuser
 
 cd ..
 echo "pg_ctl -D $PREFIX/var/lib/postgresql start" > startbot.sh
-echo "cd OpenUserBot" >> startbot.sh
+echo "cd Yzuserbot" >> startbot.sh
 echo "python3 -m userbot" >> startbot.sh
 chmod 755 startbot.sh
 
