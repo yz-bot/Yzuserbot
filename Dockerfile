@@ -10,6 +10,6 @@ RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
 
 #Install python requirements
-RUN pip3 install -r Yzuserbot https://raw.githubusercontent.com/yz-bot/Yzuserbot/requirements.txt
+RUN pip3 install -o Yz https://raw.githubusercontent.com/yz-bot/Yzuserbot/requirements.txt
 
 CMD ["python3","-m","userbot"]
