@@ -6,7 +6,7 @@ bs4
 bitlyshortener
 cowpy
 cffi
-python3
+covid
 cryptg
 cairosvg
 colour
@@ -66,6 +66,7 @@ vcsi
 wikipedia
 wget
 wordcloud
+youtube-dl
+youtube_search
 zipfile38
 opencv-python-headless
-
