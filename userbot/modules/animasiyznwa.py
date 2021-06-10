@@ -552,6 +552,20 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
+register(outgoing=True, pattern='^kntl(?: |$)(.*)')
+async def typewriter(typew)
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("`KONTOL'")
+    sleep(1)
+    await typew.edit("`SEKONTOLNYA KONTOL'")
+    sleep(2)
+    await typew.edit("`LEBIH MENGONTOL'")
+    sleep(3)
+    await typew.edit("`SIKONTOL'")
+# Create by myself @localheart
+
+
 CMD_HELP.update({
     "animasiyznwa":
     "•   **Syntax**: .sayang\
