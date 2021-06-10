@@ -552,7 +552,7 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
-register(outgoing=True, pattern='^kntl(?: |$)(.*)')
+register(outgoing=True, pattern='^.kntl(?: |$)(.*)')
 async def typewriter(typew)
     typew.pattern_match.group(1)
     sleep(1)
@@ -565,17 +565,16 @@ async def typewriter(typew)
     await typew.edit("`SIKONTOL'")
 # Create by myself @localheart
 
-
 CMD_HELP.update({
     "animasiyznwa":
     "•   **Syntax**: .sayang\
     \n•**Function**: terkadang\
     \n\n   •**Syntax**: .maaf\
     \n•**Function**: .cinta\
-    \n\n   •**Syntax**: .gombal\
+    \n\n   •**Syntax**: .cnta\
     \n•**Function**: mengirim cintamu ke seseorang\
     \n\n   •**Syntax**: .sayang\
     \n•**Function**: untuk jadi buaya\
-    \n\n   •**Syntax**: .terkadang\
+    \n\n   •**Syntax**: .kntl\
     \n•**Function**: Auk dah iseng doang."
 })
