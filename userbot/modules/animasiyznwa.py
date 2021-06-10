@@ -552,7 +552,7 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
-register(outgoing=True, pattern='^.kntl(?: |$)(.*)')
+@register(outgoing=True, pattern='^.kntl(?: |$)(.*)')
 async def typewriter(typew)
     typew.pattern_match.group(1)
     sleep(1)
