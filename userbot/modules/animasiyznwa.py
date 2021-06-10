@@ -553,8 +553,8 @@ async def typewriter(typew):
 
 
 @register(outgoing=True, pattern='^.kntl(?: |$)(.*)')
-async def typewriter(typew)
-    typew.pattern_match.group(1):
+async def typewriter(typew):
+    typew.pattern_match.group(1)
     sleep(1)
     await typew.edit("`SI KONTOL`")
     sleep(2)
