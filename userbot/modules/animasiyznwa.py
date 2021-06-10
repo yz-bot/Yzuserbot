@@ -577,5 +577,5 @@ CMD_HELP.update({
     \n\n   •**Syntax**: .sayang\
     \n•**Function**: untuk jadi buaya\
     \n\n   •**Syntax**: .kntl\
-    \n•**Function**: KONTOL."
+    \n•**Function**: .kntl."
 })
