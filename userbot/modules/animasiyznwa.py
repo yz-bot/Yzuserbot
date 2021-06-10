@@ -565,6 +565,7 @@ async def typewriter(typew)
     await typew.edit("`SIKONTOL'")
 # Create by myself @localheart
 
+
 CMD_HELP.update({
     "animasiyznwa":
     "•   **Syntax**: .sayang\
