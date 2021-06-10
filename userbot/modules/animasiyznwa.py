@@ -556,13 +556,13 @@ async def typewriter(typew):
 async def typewriter(typew)
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("`KONTOL'")
+    await typew.edit("`kontol`")
     sleep(1)
-    await typew.edit("`SE KONTOLNYA KONTOL'")
+    await typew.edit("`SE KONTOLNYA KONTOL`")
     sleep(2)
-    await typew.edit("`LEBIH MENGONTOL'")
+    await typew.edit("`LEBIH MENGONTOL`")
     sleep(3)
-    await typew.edit("`SIKONTOL'")
+    await typew.edit("`SIKONTOL`")
 # Create by myself @localheart
 
 
