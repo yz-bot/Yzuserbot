@@ -558,7 +558,7 @@ async def typewriter(typew)
     sleep(1)
     await typew.edit("`KONTOL'")
     sleep(1)
-    await typew.edit("`SEKONTOLNYA KONTOL'")
+    await typew.edit("`SE KONTOLNYA KONTOL'")
     sleep(2)
     await typew.edit("`LEBIH MENGONTOL'")
     sleep(3)
@@ -577,5 +577,5 @@ CMD_HELP.update({
     \n\n   •**Syntax**: .sayang\
     \n•**Function**: untuk jadi buaya\
     \n\n   •**Syntax**: .kntl\
-    \n•**Function**: Auk dah iseng doang."
+    \n•**Function**: KONTOL."
 })
